@@ -12,6 +12,8 @@
 		F48B762621555F390033A62A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48B762421555F390033A62A /* Main.storyboard */; };
 		F48B762821555F3D0033A62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48B762721555F3D0033A62A /* Assets.xcassets */; };
 		F48B762B21555F3D0033A62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48B762921555F3D0033A62A /* LaunchScreen.storyboard */; };
+		F48B7633215561A80033A62A /* ExampleOK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B7632215561A80033A62A /* ExampleOK.swift */; };
+		F48B7635215564EB0033A62A /* ExampleRetainCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B7634215564EB0033A62A /* ExampleRetainCycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F48B762721555F3D0033A62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F48B762A21555F3D0033A62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F48B762C21555F3D0033A62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48B7632215561A80033A62A /* ExampleOK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOK.swift; sourceTree = "<group>"; };
+		F48B7634215564EB0033A62A /* ExampleRetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleRetainCycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				F48B762021555F390033A62A /* AppDelegate.swift */,
 				F48B762221555F390033A62A /* ViewController.swift */,
+				F48B7634215564EB0033A62A /* ExampleRetainCycle.swift */,
+				F48B7632215561A80033A62A /* ExampleOK.swift */,
 				F48B762421555F390033A62A /* Main.storyboard */,
 				F48B762721555F3D0033A62A /* Assets.xcassets */,
 				F48B762921555F3D0033A62A /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				F48B762321555F390033A62A /* ViewController.swift in Sources */,
 				F48B762121555F390033A62A /* AppDelegate.swift in Sources */,
+				F48B7635215564EB0033A62A /* ExampleRetainCycle.swift in Sources */,
+				F48B7633215561A80033A62A /* ExampleOK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

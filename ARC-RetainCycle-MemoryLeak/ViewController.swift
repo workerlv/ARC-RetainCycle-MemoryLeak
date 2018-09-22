@@ -10,16 +10,41 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var me: Person?
+    
+    var latvia: Country?
+    var liepaja: City?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //EXAAAMPLE 1
+
+        // example for object with one strong reference
+        exampleOk()
+
+        
+        //EXAAAMPLE 2
+        //exampe retain cycle with two objects pointing to each other
+        //exampleRetainCycle()
+       
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // example for object with one strong reference
+    func exampleOk () {
+        // create (init) one object with one strong refrence
+        me = Person(name: "workerlv")
+        
+        // deinit
+        me = nil
     }
+    
+    //example retain cycle
+    func exampleRetainCycle () {
+        
+        latvia = Country(name: "LV", hasCity: liepaja)
+        liepaja = City(name: "LPL", inCountry: latvia)
 
-
+        latvia = nil
+    }
 }
-
