@@ -21,13 +21,16 @@ class ViewController: UIViewController {
         //EXAAAMPLE 1
 
         // example for object with one strong reference
+        print("\n ---Example 1 starts--- \n")
         exampleOk()
-
+        print("\n ---Example 1 ends--- \n")
         
         //EXAAAMPLE 2
         //exampe retain cycle with two objects pointing to each other
-        //exampleRetainCycle()
-       
+        print("\n ---Example 2 starts--- \n")
+        exampleRetainCycle()
+        print("\n ---Example 2 ends--- \n")
+
     }
 
     // example for object with one strong reference
